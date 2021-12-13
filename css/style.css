@@ -302,6 +302,10 @@ a {
     margin-right: 30px;
 }
 
+.holder {
+    padding-bottom: 94px;
+}
+
 
 /*SECTION INNER*/
 
@@ -309,7 +313,7 @@ a {
     background: #F5F4FA;
 }
 
-.inner-conteiner {
+.inner {
     padding-bottom: 94px;
 }
 
@@ -342,7 +346,7 @@ a {
 
 .inner-wrapper {
     text-align: center;
-    margin: 30px 0 30px
+    padding: 30px 0 30px
 }
 
 .inner-position {
@@ -358,6 +362,7 @@ a {
 
 .footer {
     background: #2F303A;
+    padding: 60px 0 60px;
 }
 
 .footer-logo {
@@ -412,10 +417,6 @@ a {
     color: var(--hover-text-color);
 }
 
-.footer-all {
-    padding: 60px 0 60px;
-}
-
 
 /*HOMEWORK II*/
 
@@ -423,7 +424,8 @@ a {
 /*SECTION PORTFOLIO*/
 
 .portfolio {
-    background: var(--section-bg-color);
+    background: #FFFFFF;
+    padding-bottom: 94px;
 }
 
 .portfolio-button {
@@ -477,9 +479,10 @@ a {
     margin-right: 0;
 }
 
-.portfolio-drowing:nth-child(1n+7) {
+
+/*.portfolio-drowing:nth-child(1n+7) {
     margin-bottom: 94px;
-}
+}*/
 
 .portfolio-wrapper {
     padding: 20px 24px;
